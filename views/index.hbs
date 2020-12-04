@@ -1,58 +1,59 @@
 <div class="se-pre-con"></div>
 <section>
-    <!-- sidebar menu start -->
+    <!-- Start: sidebar menu (navbar sau khi phóng to) -->
     <div class="sidebar-menu sticky-sidebar-menu">
-        <!-- logo start -->
+        <!-- Start: Logo -->
         <div class="logo">
             <h1><a href="#">ADMIN</a></h1>
         </div>
-
         <div class="logo-icon text-center">
             <a href="#" title="logo"><img src="/images/team_logo.png" alt="logo-icon"> </a>
         </div>
-        <!-- //logo end -->
+        <!-- End: Logo -->
+
 
         <div class="sidebar-menu-inner">
-            <!-- sidebar nav start -->
+            <!-- Start: Navbar bên trái -->
             <ul class="nav nav-pills nav-stacked custom-nav">
                 <li class="active"><a href="#"><i class="fa fa-tachometer"></i><span> Bảng điều khiển</span></a>
                 </li>
                 <li class="menu-list">
                     <a href="#"><i class="fa fa-cogs"></i>
-                        <span>CRUD <i class="lnr lnr-chevron-right"></i></span></a>
+                        <span>Sản phẩm<i class="lnr lnr-chevron-right"></i></span></a>
                     <ul class="sub-menu-list">
                         <li><a href="#">Create products</a> </li>
                         <li><a href="#">Read products</a> </li>
-                        <li><a href="#">Delete cards</a></li>
+                        <li><a href="#">Delete products</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
-                <li><a href="#"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
-                <li><a href="#"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
+                <li><a href="#"><i class="fa fa-table"></i> <span>Người dùng</span></a></li>
+                <li><a href="#"><i class="fa fa-th"></i> <span>Đơn hàng</span></a></li>
             </ul>
-            <!-- //sidebar nav end -->
-            <!-- toggle button start -->
+            <!-- End: Navbar bên trái -->
+
+
+            <!-- Start: nút thu nhỏ ở góc dưới bên trái  -->
             <a class="toggle-btn">
                 <i class="fa fa-angle-double-left menu-collapsed__left"><span>Thu nhỏ</span></i>
                 <i class="fa fa-angle-double-right menu-collapsed__right"></i>
             </a>
-            <!-- //toggle button end -->
+            <!-- End: nút thu nhỏ ở góc dưới bên trái -->
+
+
         </div>
     </div>
-    <!-- //sidebar menu end -->
+    <!-- End: sidebar menu -->
 
 
-
-
-    <!-- header-starts -->
+    <!-- Start: Header -->
     <div class="header sticky-header">
 
-        <!-- notification menu start -->
+        <!-- Start: menu thông báo  -->
         <div class="menu-right">
             <div class="navbar user-panel-top">
                 <div class="search-box">
                     <form action="#" method="get">
-                        <input class="search-input" placeholder="Search Here..." type="search" id="search">
+                        <input class="search-input" placeholder="Tìm kiếm ở đây..." type="search" id="search">
                         <button class="search-submit" value=""><span class="fa fa-search"></span></button>
                     </form>
                 </div>
@@ -71,14 +72,12 @@
                                 </a>
                                 <ul class="dropdown-menu drp-mnu" aria-labelledby="dropdownMenu3">
                                     <li class="user-info">
-                                        <h5 class="user-name">John Deo</h5>
-                                        <span class="status ml-2">Available</span>
+                                        <h5 class="user-name">Admin's name</h5>
+                                        <span class="status ml-2">Trực tuyến</span>
                                     </li>
-                                    <li> <a href="#"><i class="lnr lnr-user"></i>My Profile</a> </li>
-                                    <li> <a href="#"><i class="lnr lnr-users"></i>1k Followers</a> </li>
-                                    <li> <a href="#"><i class="lnr lnr-cog"></i>Setting</a> </li>
-                                    <li> <a href="#"><i class="lnr lnr-heart"></i>10054 Likes</a> </li>
-                                    <li class="logout"> <a href="#"><i class="fa fa-power-off"></i> Logout</a> </li>
+                                    <li> <a href="#"><i class="lnr lnr-user"></i>Hồ sơ của tôi</a> </li>
+                                    <li> <a href="#"><i class="lnr lnr-heart"></i>Cài đặt</a> </li>
+                                    <li class="logout"> <a href="#"><i class="fa fa-power-off"></i>Đăng xuất</a> </li>
                                 </ul>
                             </li>
                         </ul>
@@ -86,43 +85,159 @@
                 </div>
             </div>
         </div>
-        <!--notification menu end -->
+        <!-- End: menu thông báo  -->
     </div>
-    <!-- //header-ends -->
+    <!-- End: Header -->
 
-    <!-- main content bắt đầu -->
+    <!-- Start: content chính  -->
     <div class="main-content">
-
         <!-- nội dung xin chào -->
         <div class="container-fluid content-top-gap">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb my-breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Bảng điều khiển</li>
                 </ol>
             </nav>
             <div class="welcome-msg pt-3 pb-4">
-                <h1>Hi <span class="text-primary">John</span>, Welcome back</h1>
-                <p>Very detailed & featured admin.</p>
+                <h1>Chào mừng trở lại, <span class="text-primary">Admin's name</span> </h1>
+                <p>Admin có thể thêm, xoá, sửa sản phẩm & tài khoản người dùng.</p>
             </div>
+
+            <!-- Start: Thống kê -->
+            <div class="statistics">
+                <div class="row">
+                    <div class="col-xl-6 pr-xl-2">
+                        <div class="row">
+                            <div class="col-sm-6 pr-sm-2 statistics-grid">
+                                <div class="card card_border border-primary-top p-4">
+                                    <i class="lnr lnr-users"> </i>
+                                    <h3 class="text-primary number">0.00 M</h3>
+                                    <p class="stat-text">Tổng người dùng</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pl-sm-2 statistics-grid">
+                                <div class="card card_border border-primary-top p-4">
+                                    <i class="lnr lnr-eye"> </i>
+                                    <h3 class="text-secondary number">0.00 K</h3>
+                                    <p class="stat-text">Truy cập mỗi ngày</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 pl-xl-2">
+                        <div class="row">
+                            <div class="col-sm-6 pr-sm-2 statistics-grid">
+                                <div class="card card_border border-primary-top p-4">
+                                    <i class="lnr lnr-cloud-download"> </i>
+                                    <h3 class="text-success number">0.00 M</h3>
+                                    <p class="stat-text">Downloads</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pl-sm-2 statistics-grid">
+                                <div class="card card_border border-primary-top p-4">
+                                    <i class="lnr lnr-cart"> </i>
+                                    <h3 class="text-danger number">0,00 k</h3>
+                                    <p class="stat-text">Đơn hàng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Thống kê -->
+
+
+            <!-- Start: accordions -->
+            <div class="accordions">
+                <div class="row">
+                    <!-- accordion style 1 -->
+                    <div class="col-lg-12 mb-4">
+                        <div class="card card_border">
+                            <div class="card-header chart-grid__header">
+                                Bootstrap Accordions
+                            </div>
+                            <div class="card-body">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header bg-white p-0" id="headingOne">
+                                            <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">Xem thêm</a>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body para__style">
+                                                Tài khoản bị khoá
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-white p-0" id="headingTwo">
+                                            <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseTwo"
+                                               aria-expanded="false" aria-controls="collapseTwo">Xem thêm</a>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body para__style">
+                                                Danh sách người dùng
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-white p-0" id="headingThree">
+                                            <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseThree"
+                                               aria-expanded="false" aria-controls="collapseThree">Xem thêm</a>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body para__style">
+                                                Danh sách sản phẩm.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //accordion style 1 -->
+                </div>
+            </div>
+            <!-- End: accordions -->
+
 
 
 
 
         </div>
-    <!-- main content kết thúc-->
+        <!-- End: content chính -->
+
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
 </section>
 
-<!--footer section start-->
+
+
+
+
+
+<!-- Start: footer section -->
 <footer class="dashboard">
-    <p>&copy 2020 246 Team. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank"
+    <p>&copy 2020 468 Team. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank"
                                                                class="text-primary">W3layouts.</a></p>
 </footer>
-<!--footer section end-->
+<!-- End: footer section -->
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
@@ -161,8 +276,8 @@
 
 <!-- close script -->
 <script>
-    var closebtns = document.getElementsByClassName("close-grid");
-    var i;
+    let closebtns = document.getElementsByClassName("close-grid");
+    let i;
 
     for (i = 0; i < closebtns.length; i++) {
         closebtns[i].addEventListener("click", function () {
@@ -187,7 +302,7 @@
 <script>
     $(window).load(function () {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".se-pre-con").fadeOut("slow");
     });
 </script>
 <!--// loading-gif Js -->
